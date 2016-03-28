@@ -43,8 +43,8 @@ header.site-header nav .navbar-brand {
 }
 header.site-header nav .navbar-brand a {
     background: url("../images/priori_logo.png") center left no-repeat;
-    /*width: 130px;
-    height: 40px;*/
+    width: 100%; /* you can use % */
+    height: 100%;
     display: block;
     margin-top: 5px;
     background-size: 48%;
