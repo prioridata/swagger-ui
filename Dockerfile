@@ -18,7 +18,7 @@ RUN     ln -s /usr/bin/nodejs /usr/local/bin/node
 WORKDIR /build
 ADD     package.json    /build/package.json
 RUN     npm install
-RUN     ./node_modules/gulp/bin/gulp.js default
 ADD     .   /build
+RUN     ./node_modules/gulp/bin/gulp.js default
 # CMD     ./node_modules/gulp/bin/gulp.js default
 # CMD     ./node_modules/gulp/bin/gulp.js serve
