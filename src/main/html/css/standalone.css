@@ -292,3 +292,8 @@ a.hiring::after {
         text-align: center;
     }
 }
+
+/*============== custom =======*/
+.scope-selector{
+  display: none;
+}
