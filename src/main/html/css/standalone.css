@@ -32,21 +32,19 @@ header.site-header nav li {
 header.site-header nav .navbar-brand {
     font-weight: bold;
     margin: 0;
-    display: inline-block;
     float: left;
     font-size: 24px;
     margin-right: 20px;
     color: #000;
     padding: 0 15px 0 15px;
-    margin: 0;
-    width: 120px;
+    width: auto;
 }
 header.site-header nav .navbar-brand a {
-  background: url("../images/priori_logo.png") center left no-repeat;
-  width: 400px;
-  height: 40px;
+  background: url("../images/airnow_data_logo_dark.png") center left no-repeat;
+  width: 360px;
+  height: 100%;
   display: block;
-  margin-top: 5px;
+  margin-top: 0;
   background-size: 50%;
 }
 header.site-header nav .navbar-brand img {
@@ -210,7 +208,7 @@ header.site-header a.login:hover {
     position: relative;
 }
 a.hiring {
-    background: #44c7f4;
+    background: #00BC66;
     text-transform: uppercase;
     position: absolute;
     top: 16px;
@@ -231,7 +229,7 @@ a.hiring::after {
     height: 0;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-left: 5px solid #44c7f4;
+    border-left: 5px solid #00BC66;
 }
 /*==========  Responsive  ==========*/
 @media screen and (max-width: 990px) {

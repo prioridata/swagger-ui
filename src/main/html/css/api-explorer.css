@@ -24,7 +24,7 @@
 }
 
 .swagger-section pre .change, .swagger-section pre .date, .swagger-section pre .go .constant, .swagger-section pre .literal, .swagger-section pre .markdown .bullet, .swagger-section pre .markdown .link_url, .swagger-section pre .number, .swagger-section pre .regexp, .swagger-section pre .smalltalk .char, .swagger-section pre .smalltalk .symbol, .swagger-section pre .tag {
-    color: #44c7f4
+    color: #00BC66
 }
 
 .swagger-section pre .apache .sqbracket, .swagger-section pre .array, .swagger-section pre .attr_selector, .swagger-section pre .clojure .attribute, .swagger-section pre .coffeescript .property, .swagger-section pre .decorator, .swagger-section pre .deletion, .swagger-section pre .doctype, .swagger-section pre .envvar, .swagger-section pre .erlang_repl .reserved, .swagger-section pre .filter .argument, .swagger-section pre .important, .swagger-section pre .javadoc, .swagger-section pre .label, .swagger-section pre .localvars, .swagger-section pre .markdown .link_label, .swagger-section pre .nginx .built_in, .swagger-section pre .pi, .swagger-section pre .prompt, .swagger-section pre .pseudo, .swagger-section pre .ruby .string, .swagger-section pre .shebang, .swagger-section pre .tex .formula, .swagger-section pre .vhdl .attribute {
@@ -190,7 +190,7 @@
 }
 
 .swagger-section .operation.get .http_method a, .swagger-section .operation.get .http_method span {
-    background: #44c7f4
+    background: #00BC66
 }
 
 .swagger-section .operation.post .http_method a, .swagger-section .operation.post .http_method span {
@@ -476,7 +476,7 @@
 }
 
 .swagger-section .operations .model-signature .description .propType[title=boolean], .swagger-section .operations .model-signature .description .propType[title=integer] {
-    color: #44c7f4
+    color: #00BC66
 }
 
 .swagger-section .operations .model-signature .description .propType[title="array[string]"], .swagger-section .operations .model-signature .description .propType[title="array[object]"], .swagger-section .operations .model-signature .description .propType[title=array] {
